@@ -1,0 +1,525 @@
+.pet-listing {
+    padding: 55px 0px;
+
+    .btn {
+        text-transform: capitalize;
+    }
+
+    &__title {
+        h1 {
+            @extend .heading, .heading--lg;
+            padding-bottom: 10px;
+            border-bottom: $gray-200 solid 1px;
+        }
+    }
+    &__price {
+        @extend .heading--xl;
+        line-height: 1;
+        font-weight: bold;
+        color: $secondary;
+        margin-bottom: 20px;
+        bdi {
+
+        }
+    }
+    &__meta {
+        background-color: #F5F6F8;
+        padding: 30px 40px;
+        margin-bottom: 40px;
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            @include media-breakpoint-up(sm){
+                columns: 2;
+            }
+            label {
+                // width: 100%;
+                // max-width: 75px;
+                color: $primary;
+                font-weight: bold;
+                margin: 0 10px 0 0;
+            }
+            li {
+                margin-bottom: 5px;
+            }
+        }
+    }
+    &__additional {
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 30px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        li {
+            flex: 0 1 100%;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+            @include media-breakpoint-up(sm){
+                flex: 0 1 49%;
+                text-align: left;
+            }
+            img {
+                max-height: 15px;
+                @include media-breakpoint-up(sm){
+                    max-height: 25px;
+                }
+            }
+        }
+    }
+
+    // Image
+    &__image {
+        margin-bottom: 50px;
+        .card__carousel img {
+            height: 250px;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            @include media-breakpoint-up(sm){
+                height: 375px;
+            }
+        }
+    }
+
+    // Tabs
+    &__tabs {
+        padding: 55px 0;
+    }
+    .tab-pane {
+        border: #e9ecef solid 1px;
+        border-width: 0px 1px 1px 1px;
+        padding: 2em;
+        &__block {
+            margin-bottom: 20px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            &--flex {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-between;
+                align-items: stretch;
+            }
+        }
+        &__block-inner {
+            flex: 0 1 100%;
+            background-color: #F5F6F8;
+            margin-bottom: 40px;
+            padding: 30px;
+            @include media-breakpoint-up(md){
+                flex: 0 1 49%;
+            }
+            &--full {
+                flex: 0 1 100%;
+                background-color: $white;
+                padding: 0;
+            }
+        }
+        &__inline-list {
+            text-transform: capitalize;
+            list-style: none;
+            padding: 0;
+            margin: 0; 
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            flex-flow: row wrap;
+            li {
+                margin-right: 30px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                span {
+                    color: $primary;
+                }
+            }
+        }
+    }
+    .nav-item {
+        font-weight: bold;
+    }
+
+    // Modals
+    &__add-listing {
+        .modal-dialog {
+            max-width: 998px;
+        }
+        .modal-header {
+            border: none;
+            padding: 5px;
+            .close {
+                margin: 0px 0px 0px auto;
+                padding: 0;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                border: none;
+            }
+        }
+        .modal-body {
+            br {
+                display: none;
+            }
+        }
+        .gform {
+            &_body {    
+                width: 100%;
+                display: flex;
+                flex-flow: row wrap;
+                flex: 0 1 100%;
+                justify-content: space-between;
+            }
+            &_button {
+                @extend %button, %button--primary;
+                width: 100%;
+                padding: 4px 10px;
+                border: none;
+            }
+            &_button_select_files {
+                background: none;
+                border: none;
+                color: $primary;
+                text-decoration: underline;
+                padding: 0;
+            }
+            &_drop_area {
+                border: #d8d8d8 dashed 1px;
+                border-radius: 5px;
+                padding: 6px 12px;
+            }
+            &_fields {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-between;
+            }
+            &_page {
+                flex: 0 1 32%;
+                display: flex !important;
+                flex-flow: row wrap;
+
+                &_fields {
+                    width: 100%;
+                }
+                &_footer {
+                    width: 100%;
+                    display: flex;
+                }
+            }
+            &_wrapper {
+                form {
+                    flex-flow: row wrap;
+                }
+            }
+            &_previous_button,
+            &_next_button {
+                display: none;
+            }
+            &_footer {
+                width: 31%;
+                padding-left: 65%;
+                margin-top: 20px;
+                display: flex;
+                input {
+                    padding: 10px;
+                }
+            }
+        }
+        .gfield {
+            flex: 0 1 100%;
+            margin-bottom: 20px;
+            list-style: none;
+            &.price-amount {
+                flex: 0 1 74%;
+            }
+            &.price-curr {
+                flex: 0 1 25%;
+                .gfield_label {
+                    opacity: 0;
+                }
+            }
+            &.award_certification {
+                label {
+                    margin: 0;
+                }
+                li {
+                    list-style: none;
+                }
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+            &_label {
+                color: $primary;
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 1;
+                margin: 0 0 8px;
+            }
+            &_radio {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-flow: row wrap;
+                li {
+                    display: flex;
+                    align-items: center;
+                    padding-right: 10px;
+                    &:last-child {
+                        padding-right: 0;
+                    }
+                    label {
+                        margin: 0;
+                        padding: 0 0 0 5px;
+                    }
+                }
+            }
+
+            input[type=text] {
+                border: #707070 solid 1px;
+                border-radius: 5px;
+            }
+        }
+        .ginput {
+            &_container {
+                &_select {
+                    display: flex;
+                }
+            }
+            &_preview {
+                font-size: 14px;
+                a {
+                    color: $primary;
+                    text-decoration: underline !important;
+                }
+                strong {
+
+                }
+            }
+        }
+        .gfmc-column {
+            flex: 0 1 100%;
+            max-width: 100%;
+            @include media-breakpoint-up(md){
+                flex: 0 1 32%;
+                max-width: 32%;
+            }
+            > ul {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    // Listings
+    &__current-listing {
+        display: flex;
+        flex-flow: row wrap;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        overflow: hidden;
+        border: 1px solid #EBEBEB;
+        box-shadow: 0px 0px 13px #212D4830;
+        position: relative;
+        color: #2E2E2E;
+        @include media-breakpoint-up(md){
+
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .heading-primary {
+            color: $primary;
+            text-transform: uppercase;
+        }
+        .heading-secondary {
+            color: $primary;
+        }
+    }
+    &__column {
+        padding: 0;
+        &--additional {
+            img {
+                width: 75px;
+                height: 75px;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+
+        .btn--large {
+            padding: 10px 0;
+        }
+        .btn--primary {
+            width: 100%;
+            padding: 10px 0;
+        }
+        .btn--delete {
+            border: black solid 1px;
+            border-radius: 50px;
+            padding: 5px 0;
+        }
+    }
+    &__current-listing-added {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        color: $primary;
+    }
+    &__current-listing-col {
+        flex: 0 1 100%;
+        max-width: 100%;
+        @include media-breakpoint-up(md){
+            flex: 0 1 33%;
+            max-width: 33%;
+        }
+        &.primary {
+            background-color: $primary;
+            color: $white;
+        }
+    }
+    &__current-listing-col-container {
+        padding: 20px;
+        @include media-breakpoint-up(md){
+            padding: 54px 20px;
+        }
+    }
+    &__current-stats {
+        color: $primary;
+        font-size: 18px;
+        font-weight: bold;
+        p {
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+    }
+    &__row {
+        margin-bottom: 20px;
+        padding: 0 15px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__edit-main-image {
+        margin-bottom: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+        @include media-breakpoint-up(md){
+            height: 115px;
+            width: 115px;
+            margin-bottom: 0;
+        }
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    // Related
+    &__related-image {
+        margin-bottom: 14px;
+    }
+    &__related-info {
+        font-weight: bold;
+        h3 {
+            color: $primary;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        a {
+            color: $secondary;
+            text-decoration: underline;
+            font-size: 16px;
+        }
+    }
+}
+
+// Breeder Details
+.breeder-details {
+    &__tab-card {
+        margin-bottom: 15px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        h2, h3 {
+            font-size: 18px;
+            font-weight: bold;
+            color: $primary;
+        }
+        h3 {
+            margin: 10px 0 0;
+        }
+        p {
+            margin: 0; 
+        }
+        .pet-listing__row & {
+            div {
+                img {
+                    margin-right: 5px !important;
+                    max-height: 20px;
+                }
+                p {
+                    display: flex;
+                    align-items: center;
+                    // justify-content: center;
+                }
+            }
+        }
+    }
+    &__tab-card-action {
+        a {
+            font-size: 14px;
+            font-weight: bold;
+            color: $secondary;
+        }
+    }
+}
+
+// Duplicate
+.um .um-form .pet-listing__add-listing {
+    input[type=text],
+    input[type=url],
+    input[type=number],
+    input[type=email],
+    textarea {
+        border: #707070 solid 1px !important;
+        border-radius: 5px;
+        padding: 5px 12px !important;
+        font-size: 14px !important;
+        height: auto !important;
+        width: 100%;
+    }
+    select {
+        border: #707070 solid 1px !important;
+        border-radius: 5px;
+        padding: 7px 12px !important;
+        font-size: 14px !important;
+        height: auto !important;
+        width: 100%;
+    }
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .page-numbers {
+        text-align: center;
+    }
+}

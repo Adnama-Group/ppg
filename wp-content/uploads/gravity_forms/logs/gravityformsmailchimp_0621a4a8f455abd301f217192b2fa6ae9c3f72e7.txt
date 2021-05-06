@@ -1,0 +1,22 @@
+2021-04-29 14:31:54.271923 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #559 for gravityformsmailchimp. 
+2021-04-29 14:31:54.274424 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #559. 
+2021-04-30 14:21:02.867786 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #560 for gravityformsmailchimp. 
+2021-04-30 14:21:02.871793 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #560. 
+2021-04-30 14:28:14.529066 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #561 for gravityformsmailchimp. 
+2021-04-30 14:28:14.531272 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #561. 
+2021-04-30 14:32:39.167507 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #562 for gravityformsmailchimp. 
+2021-04-30 14:32:39.173279 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #562. 
+2021-04-30 14:37:26.726001 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #563 for gravityformsmailchimp. 
+2021-04-30 14:37:26.728455 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #563. 
+2021-04-30 15:39:47.634260 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #564 for gravityformsmailchimp. 
+2021-04-30 15:39:47.637948 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #564. 
+2021-05-03 11:29:32.169761 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #565 for gravityformsmailchimp. 
+2021-05-03 11:29:32.177746 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #565. 
+2021-05-03 11:30:23.513343 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #566 for gravityformsmailchimp. 
+2021-05-03 11:30:23.515933 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #566. 
+2021-05-03 11:35:02.228117 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #567 for gravityformsmailchimp. 
+2021-05-03 11:35:02.231992 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #567. 
+2021-05-03 12:00:24.680536 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #568 for gravityformsmailchimp. 
+2021-05-03 12:00:24.686443 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #568. 
+2021-05-03 12:40:35.135678 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #569 for gravityformsmailchimp. 
+2021-05-03 12:40:35.139597 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #569. 

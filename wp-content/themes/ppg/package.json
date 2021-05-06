@@ -1,0 +1,45 @@
+{
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-transform-react-jsx": "^7.13.12",
+    "@babel/preset-env": "^7.11.5",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-multi-entry": "^4.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-replace": "^2.3.3",
+    "@wordpress/scripts": "^14.1.1",
+    "@wordpress/element": "^2.20.2",
+    "animejs": "^3.2.1",
+    "autoprefixer": "^9.8.6",
+    "browser-sync": "^2.26.12",
+    "dart-sass": "^1.25.0",
+    "dotenv": "^8.2.0",
+    "fibers": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "jquery": "^3.5.1",
+    "lodash-es": "^4.17.15",
+    "rellax": "^1.12.1",
+    "rollup": "^2.27.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "browserslist": "last 2 version",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@glidejs/glide": "^3.4.1",
+    "bootstrap": "^4.6.0",
+    "js-cookie": "^2.2.1",
+    "micromodal": "^0.4.6",
+    "tippy.js": "^6.2.6"
+  }
+}

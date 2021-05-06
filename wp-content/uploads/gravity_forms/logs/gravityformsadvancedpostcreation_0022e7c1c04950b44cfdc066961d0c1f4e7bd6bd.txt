@@ -1,0 +1,172 @@
+2021-04-29 14:31:54.158884 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #559 for gravityformsadvancedpostcreation. 
+2021-04-29 14:31:54.162622 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Starting to process feed (#9 - Add Listing) for entry #559 for gravityformsadvancedpostcreation 
+2021-04-29 14:31:54.239264 - DEBUG --> GF_Advanced_Post_Creation::create_post(): Post was created with an ID of 2622. 
+2021-04-29 14:31:54.243750 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_primary_image with value https://ppg.test/wp-content/uploads/gravity_forms/27-ea9c957f6d75289b2d2e139a99e3b41b/2021/04/drp-header-spring-2020_01.jpg 
+2021-04-29 14:31:54.245973 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_name with value www 
+2021-04-29 14:31:54.247324 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_type with value dogs 
+2021-04-29 14:31:54.248774 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_dog_breed with value Alaskan Malamute 
+2021-04-29 14:31:54.250376 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_cat_breed 
+2021-04-29 14:31:54.250406 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_bird_breed 
+2021-04-29 14:31:54.250427 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_horse_breed 
+2021-04-29 14:31:54.250449 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_reptile_breed 
+2021-04-29 14:31:54.250471 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_additional_images 
+2021-04-29 14:31:54.250493 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_title with value www 
+2021-04-29 14:31:54.252288 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_color with value Brown, chocolate, liver 
+2021-04-29 14:31:54.253083 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_other_breed 
+2021-04-29 14:31:54.253115 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_content with value ww 
+2021-04-29 14:31:54.254431 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field select 
+2021-04-29 14:31:54.254462 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_champion_bloodline 
+2021-04-29 14:31:54.254484 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_guaranteed_health 
+2021-04-29 14:31:54.254506 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_free_shipping 
+2021-04-29 14:31:54.254527 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_certified_breeder 
+2021-04-29 14:31:54.254548 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_age with value 3 
+2021-04-29 14:31:54.255357 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_sex with value Unsexed 
+2021-04-29 14:31:54.256128 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_weight with value < 1 lb 
+2021-04-29 14:31:54.257450 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_price with value 33 
+2021-04-29 14:31:54.258369 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_price_currency with value USD 
+2021-04-29 14:31:54.267608 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Marking entry #559 as fulfilled for gravityformsadvancedpostcreation 
+2021-04-30 14:21:02.854197 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #560 for gravityformsadvancedpostcreation. 
+2021-04-30 14:21:02.867616 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #560. 
+2021-04-30 14:28:14.526093 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #561 for gravityformsadvancedpostcreation. 
+2021-04-30 14:28:14.528892 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #561. 
+2021-04-30 14:32:39.164772 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #562 for gravityformsadvancedpostcreation. 
+2021-04-30 14:32:39.167373 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #562. 
+2021-04-30 14:37:26.720865 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #563 for gravityformsadvancedpostcreation. 
+2021-04-30 14:37:26.725409 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #563. 
+2021-04-30 15:39:47.625972 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #564 for gravityformsadvancedpostcreation. 
+2021-04-30 15:39:47.633706 - DEBUG --> GFFeedAddOn::maybe_process_feed(): No feeds to process for entry #564. 
+2021-05-03 11:29:31.867430 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #565 for gravityformsadvancedpostcreation. 
+2021-05-03 11:29:31.872558 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Starting to process feed (#9 - Add Listing) for entry #565 for gravityformsadvancedpostcreation 
+2021-05-03 11:29:32.101547 - DEBUG --> GF_Advanced_Post_Creation::create_post(): Post was created with an ID of 2632. 
+2021-05-03 11:29:32.112122 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_primary_image with value https://ppg.test/wp-content/uploads/gravity_forms/27-ea9c957f6d75289b2d2e139a99e3b41b/2021/05/IMG-8126.jpg 
+2021-05-03 11:29:32.115181 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_name with value ttre 
+2021-05-03 11:29:32.118376 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_type with value cats 
+2021-05-03 11:29:32.120904 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_dog_breed 
+2021-05-03 11:29:32.121012 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_cat_breed with value american-curl 
+2021-05-03 11:29:32.122117 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_bird_breed 
+2021-05-03 11:29:32.122189 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_horse_breed 
+2021-05-03 11:29:32.122247 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_reptile_breed 
+2021-05-03 11:29:32.122313 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_additional_images 
+2021-05-03 11:29:32.122371 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_title with value rwerwer 
+2021-05-03 11:29:32.123308 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_color with value White 
+2021-05-03 11:29:32.124506 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_other_breed 
+2021-05-03 11:29:32.124643 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_content with value ewrtgehbbb 
+2021-05-03 11:29:32.127676 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_additional_select with value Champion Bloodline 
+2021-05-03 11:29:32.130234 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_text_champion_bloodline with value teret 
+2021-05-03 11:29:32.132122 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_guaranteed_health 
+2021-05-03 11:29:32.132249 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_free_shipping 
+2021-05-03 11:29:32.132304 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_certified_breeder 
+2021-05-03 11:29:32.132359 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_age with value 15-plus 
+2021-05-03 11:29:32.133754 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_sex with value Female 
+2021-05-03 11:29:32.134907 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_weight with value < 1 lb 
+2021-05-03 11:29:32.137947 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_price with value 33 
+2021-05-03 11:29:32.140599 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_price_currency with value USD 
+2021-05-03 11:29:32.161611 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Marking entry #565 as fulfilled for gravityformsadvancedpostcreation 
+2021-05-03 11:30:23.429915 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #566 for gravityformsadvancedpostcreation. 
+2021-05-03 11:30:23.432090 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Starting to process feed (#9 - Add Listing) for entry #566 for gravityformsadvancedpostcreation 
+2021-05-03 11:30:23.483279 - DEBUG --> GF_Advanced_Post_Creation::create_post(): Post was created with an ID of 2633. 
+2021-05-03 11:30:23.487168 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_primary_image with value https://ppg.test/wp-content/uploads/gravity_forms/27-ea9c957f6d75289b2d2e139a99e3b41b/2021/05/shutterstock_531543478.jpg 
+2021-05-03 11:30:23.488354 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_name with value rtert 
+2021-05-03 11:30:23.491971 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_type with value farm-life 
+2021-05-03 11:30:23.493694 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_dog_breed 
+2021-05-03 11:30:23.493738 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_cat_breed 
+2021-05-03 11:30:23.493767 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_bird_breed 
+2021-05-03 11:30:23.493793 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_horse_breed 
+2021-05-03 11:30:23.493817 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_reptile_breed 
+2021-05-03 11:30:23.493840 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_additional_images 
+2021-05-03 11:30:23.493865 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_title with value rtert 
+2021-05-03 11:30:23.494801 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_color with value Fawn 
+2021-05-03 11:30:23.496140 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_other_breed 
+2021-05-03 11:30:23.496181 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_content with value ertertert 
+2021-05-03 11:30:23.496918 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_additional_select with value Free Shipping 
+2021-05-03 11:30:23.497632 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_champion_bloodline 
+2021-05-03 11:30:23.497672 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_guaranteed_health 
+2021-05-03 11:30:23.497715 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_text_free_shipping with value grere 
+2021-05-03 11:30:23.498511 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_certified_breeder 
+2021-05-03 11:30:23.498544 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_age with value 4 - 7 years old 
+2021-05-03 11:30:23.499285 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_sex with value Female 
+2021-05-03 11:30:23.500051 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_weight with value < 1 lb 
+2021-05-03 11:30:23.500722 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_price with value 33 
+2021-05-03 11:30:23.501391 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_price_currency with value USD 
+2021-05-03 11:30:23.506923 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Marking entry #566 as fulfilled for gravityformsadvancedpostcreation 
+2021-05-03 11:35:02.120408 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #567 for gravityformsadvancedpostcreation. 
+2021-05-03 11:35:02.124732 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Starting to process feed (#9 - Add Listing) for entry #567 for gravityformsadvancedpostcreation 
+2021-05-03 11:35:02.183959 - DEBUG --> GF_Advanced_Post_Creation::create_post(): Post was created with an ID of 2634. 
+2021-05-03 11:35:02.190807 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_primary_image with value https://ppg.test/wp-content/uploads/gravity_forms/27-ea9c957f6d75289b2d2e139a99e3b41b/2021/05/WhatsApp-Image-2021-04-06-at-1.18.14-PM.jpeg 
+2021-05-03 11:35:02.191732 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_name with value TEst 
+2021-05-03 11:35:02.192919 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_type with value reptiles 
+2021-05-03 11:35:02.194262 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_dog_breed 
+2021-05-03 11:35:02.194299 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_cat_breed 
+2021-05-03 11:35:02.194329 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_bird_breed 
+2021-05-03 11:35:02.194356 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_horse_breed 
+2021-05-03 11:35:02.194386 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_reptile_breed with value african-sideneck-turtle 
+2021-05-03 11:35:02.195516 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_additional_images with value https://ppg.test/wp-content/uploads/gravity_forms/27-ea9c957f6d75289b2d2e139a99e3b41b/2021/05/element5-digital-T9CXBZLUvic-unsplash.jpg , https://ppg.test/wp-content/uploads/gravity_forms/27-ea9c957f6d75289b2d2e139a99e3b41b/2021/05/yt-cover-3.jpg 
+2021-05-03 11:35:02.196297 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_title with value additional headline 
+2021-05-03 11:35:02.196971 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_color with value Fawn 
+2021-05-03 11:35:02.198240 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_other_breed 
+2021-05-03 11:35:02.198280 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_content with value dasdasfd   fsddfsdf 
+2021-05-03 11:35:02.198892 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_additional_select with value Certified Breeder, Guaranteed Health 
+2021-05-03 11:35:02.199780 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_champion_bloodline 
+2021-05-03 11:35:02.199839 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_text_guaranteed_health with value reerrerty yutuytuy i 
+2021-05-03 11:35:02.200505 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_free_shipping 
+2021-05-03 11:35:02.200541 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_text_certified_breeder with value reerer 
+2021-05-03 11:35:02.201361 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_age with value 15 +  years old 
+2021-05-03 11:35:02.203759 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_sex with value Unsexed 
+2021-05-03 11:35:02.206059 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_weight with value 20 lb - 40 lb 
+2021-05-03 11:35:02.207978 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_price with value 112 
+2021-05-03 11:35:02.209101 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_price_currency with value USD 
+2021-05-03 11:35:02.218693 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Marking entry #567 as fulfilled for gravityformsadvancedpostcreation 
+2021-05-03 12:00:24.409007 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #568 for gravityformsadvancedpostcreation. 
+2021-05-03 12:00:24.423520 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Starting to process feed (#9 - Add Listing) for entry #568 for gravityformsadvancedpostcreation 
+2021-05-03 12:00:24.571647 - DEBUG --> GF_Advanced_Post_Creation::create_post(): Post was created with an ID of 2635. 
+2021-05-03 12:00:24.577214 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_primary_image with value https://ppg.test/wp-content/uploads/gravity_forms/27-ea9c957f6d75289b2d2e139a99e3b41b/2021/05/P2130472.JPG 
+2021-05-03 12:00:24.578942 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_name with value Awards Tester 
+2021-05-03 12:00:24.581537 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_type with value other 
+2021-05-03 12:00:24.583612 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_dog_breed 
+2021-05-03 12:00:24.583710 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_cat_breed 
+2021-05-03 12:00:24.583770 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_bird_breed 
+2021-05-03 12:00:24.583826 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_horse_breed 
+2021-05-03 12:00:24.583882 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_reptile_breed 
+2021-05-03 12:00:24.583940 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_additional_images with value https://ppg.test/wp-content/uploads/gravity_forms/27-ea9c957f6d75289b2d2e139a99e3b41b/2021/05/ivan-karpov-P745v_Gn4U8-unsplash.jpg 
+2021-05-03 12:00:24.587156 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_title with value Awatd terter 
+2021-05-03 12:00:24.589354 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_color with value Grey 
+2021-05-03 12:00:24.591123 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_other_breed with value Alien 
+2021-05-03 12:00:24.592360 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_content with value tsting free shipping and health 
+2021-05-03 12:00:24.593473 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_additional_select with value Free Shipping, Guaranteed Health 
+2021-05-03 12:00:24.594734 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_champion_bloodline 
+2021-05-03 12:00:24.594830 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_text_guaranteed_health with value fata 2 
+2021-05-03 12:00:24.597511 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_text_free_shipping with value data 
+2021-05-03 12:00:24.599637 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_certified_breeder 
+2021-05-03 12:00:24.599745 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_age with value < 1 year old 
+2021-05-03 12:00:24.602735 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_sex with value Female 
+2021-05-03 12:00:24.603945 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_weight with value 1 lb - 20 lb 
+2021-05-03 12:00:24.605053 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_price with value 33 
+2021-05-03 12:00:24.607811 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_price_currency with value USD 
+2021-05-03 12:00:24.672967 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Marking entry #568 as fulfilled for gravityformsadvancedpostcreation 
+2021-05-03 12:40:34.648628 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Checking for feeds to process for entry #569 for gravityformsadvancedpostcreation. 
+2021-05-03 12:40:34.661084 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Starting to process feed (#9 - Add Listing) for entry #569 for gravityformsadvancedpostcreation 
+2021-05-03 12:40:35.016496 - DEBUG --> GF_Advanced_Post_Creation::create_post(): Post was created with an ID of 2636. 
+2021-05-03 12:40:35.071484 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_primary_image with value https://ppg.test/wp-content/uploads/gravity_forms/27-ea9c957f6d75289b2d2e139a99e3b41b/2021/05/My-Post-1.jpg 
+2021-05-03 12:40:35.073986 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_name with value Yaello 
+2021-05-03 12:40:35.076708 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_type with value reptiles 
+2021-05-03 12:40:35.077970 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_dog_breed 
+2021-05-03 12:40:35.078114 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_cat_breed 
+2021-05-03 12:40:35.078218 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_bird_breed 
+2021-05-03 12:40:35.078319 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_horse_breed 
+2021-05-03 12:40:35.078419 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_reptile_breed with value green-basilisk 
+2021-05-03 12:40:35.080939 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_additional_images 
+2021-05-03 12:40:35.081022 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_title with value Yaello for sale 
+2021-05-03 12:40:35.090989 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_color with value Grey 
+2021-05-03 12:40:35.093115 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_other_breed 
+2021-05-03 12:40:35.093199 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_content with value trtrret 
+2021-05-03 12:40:35.094553 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_additional_select with value Champion Bloodline 
+2021-05-03 12:40:35.096157 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_text_champion_bloodline with value Test 
+2021-05-03 12:40:35.097794 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_guaranteed_health 
+2021-05-03 12:40:35.097909 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_free_shipping 
+2021-05-03 12:40:35.098001 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Empty value for Custom Field listing_text_certified_breeder 
+2021-05-03 12:40:35.098092 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_age with value 1 - 3 years old 
+2021-05-03 12:40:35.099340 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_sex with value Female 
+2021-05-03 12:40:35.101324 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_pet_weight with value < 1 lb 
+2021-05-03 12:40:35.103543 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_price with value 200 
+2021-05-03 12:40:35.107331 - DEBUG --> GF_Advanced_Post_Creation::maybe_set_post_meta(): Adding custom field listing_price_currency with value USD 
+2021-05-03 12:40:35.129409 - DEBUG --> GFFeedAddOn::maybe_process_feed(): Marking entry #569 as fulfilled for gravityformsadvancedpostcreation 

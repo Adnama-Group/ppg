@@ -1,0 +1,145 @@
+$listing-spacing: 20px;
+$listing-max-width: 620px;
+$steps-size: 60px;
+
+%input-styling {
+    border-radius: 5px;
+    border: #707070 solid 1px;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+
+#pet_listing_steps { 
+    margin: $listing-spacing*3 auto $listing-spacing*2;
+    max-width: $listing-max-width;
+    display:flex;
+    position:relative;
+    + h1 {
+        margin-bottom: $listing-spacing*2
+    }
+    ~ *:not(.complete) {
+        // margin: auto;
+        // max-width: $listing-max-width;
+        
+        // .gfield {
+        //     padding: 0;
+        //     margin: 0 0 35px;
+
+        //     &_html_formatted {
+        //         margin-bottom: $listing-spacing*2
+
+        //     }
+
+        //     .gf_coupon_code {
+        //         width: 100%;
+        //         @include media-breakpoint-up(sm){
+        //             width: 50%;
+        //         }
+        //         + .button {
+        //             @extend .btn, .btn--primary;
+        //             background-color: $primary;
+        //             padding: 7px 20px 9px;
+        //             width: 100%;
+        //             max-width: 195px;
+        //             transform: translateY(-2px);
+        //             &:disabled {
+        //                 opacity: 0.5;
+        //             }
+        //         }
+        //     }
+
+        //     &_radio {
+        //         margin: 0;
+        //         width: 100%;
+        //         li {
+        //             margin: 0 0 10px;
+        //             &:last-child {
+        //                 margin: 0;
+        //             }
+        //             input {
+        //                 margin: 0;
+        //                 padding: 0;
+        //             }
+        //             label {
+        //                 margin: 0;
+        //                 padding: 0 5px;
+        //             }
+        //         }
+        //     }
+
+        //     > .gfield_label {
+        //         margin-bottom: 15px;
+        //         + .ginput_container {
+        //             margin: 0;
+        //         }
+        //     }
+        // }
+
+        // .gform {
+        //     &_footer {
+        //         text-align: right; 
+
+        //         input[type=submit] {
+        //             @extend .btn, .btn--primary;
+        //             // background-color: $primary;
+        //             // padding: 7px 20px 9px;
+        //             width: 100%;
+        //             max-width: 195px;
+        //             // transform: translateY(-2px);
+        //         }
+        //     }
+        // }
+
+        // input,
+        // select{
+        //     @extend %input-styling;
+        // }
+    }
+
+    .rounded-circle{
+        width: $steps-size;
+        height: $steps-size;
+        background-color: #C9C9C9;
+        text-align: center;
+        font-weight: bold;
+        font-size: $heading-md;
+        color:$white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &.active{
+            background-color: $primary;
+        }
+    }
+
+    div#connecting_line{
+        position: absolute;
+        z-index:-2;
+        left:1%;
+        right:1%;
+        width:96%;
+        background-color:#C9C9C9;
+        height:10px;
+    }
+
+    div#checkout_progress{
+        position: absolute;
+        z-index:-1;
+        left:1%;
+        right:1%;
+        width:0%;
+        background-color:$primary;
+        height:10px;
+        &.two{
+            width:33%;
+        }
+        &.three{
+            width:66%;
+        }
+        &.four{
+            width:98%;
+        }
+    }
+
+}

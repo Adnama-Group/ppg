@@ -1,0 +1,112 @@
+$card-spacing: 10px;
+
+.card {
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #cecece;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    
+    p {
+        &:last-child {
+            margin: 0;
+        }
+    }
+
+    &__carousel {
+        img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            object-position: center;
+            @include media-breakpoint-up(md) {
+                height: 200px;
+            }
+        }
+    }
+     
+    &__meta {
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1;
+        justify-content: space-between;
+        padding: $card-spacing*2 $card-spacing;
+        @include media-breakpoint-up(md) {
+            padding: $card-spacing*2 $card-spacing*3;
+        }
+    }
+    &__name {
+        .heading {
+            color: $secondary;
+            text-align: center;
+        }
+    }
+    &__info {
+        text-align: center;
+    }
+    &__info-breed {
+        font-weight: bold;
+        margin-bottom: $card-spacing;
+    }
+    &__info-description {
+        font-size: $font-size-sm;
+        margin-bottom: $card-spacing;
+    }
+    &__info-location {
+        font-size: $font-size-sm;
+        margin-bottom: $card-spacing;
+    }
+    &__services {
+        padding-bottom: $card-spacing*1.75;
+        img {
+            margin-right: $card-spacing;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        li {
+            margin: 10px;
+        }
+        .additional-service-content {
+            @extend .screen-reader-text;
+        }
+    }
+    &__button {
+        padding: $card-spacing*2 $card-spacing $card-spacing*2.5;
+    }
+    &__amount {
+        border-top: $gray-300 solid 1px;
+        color: $secondary;
+        text-align: center;
+        flex: 1 0 100%;
+        max-width: 100%;
+        font-size: $heading-lg;
+        font-weight: bold;
+    }   
+    &__footer {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+        font-size: $font-size-sm;
+    }
+    &__footer-link {
+        flex: 0 1 auto;
+        a {
+            color: $primary;
+            // remove this once links are refactored
+            &.text--underline {
+                text-decoration: underline !important;
+            }
+        }
+    }
+}

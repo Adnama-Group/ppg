@@ -1,0 +1,50 @@
+.navbar {
+    padding: 0;
+}
+.navbar-nav {
+    a {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $gray-900 !important;
+    }
+    .menu-item {
+        > a {
+            &:after {
+                content: none !important;
+            }
+        }
+        &:hover {
+            .sub-menu {
+                display: block;
+            }
+        }
+    }
+    .sub-menu {
+        margin-top: -10px;
+        &.active {
+            display: block;
+        }
+    }
+}
+.navbar-collapse {
+    ~ .navbar__form {
+        @include media-breakpoint-down(lg){
+            display: none;
+        }
+    }
+    &.collapse.show {
+        ~ .navbar__form {
+            display: block;
+        }
+    }
+}
+
+// #menu-desktop-login-signup {
+//     li {
+//         &:last-child {
+//             a {
+//                 @extend .btn, .btn__primary;
+//             }
+//         }
+//     }
+// }

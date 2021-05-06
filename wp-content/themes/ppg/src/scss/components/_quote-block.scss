@@ -1,0 +1,31 @@
+.quote-block {
+    background-color: #f5f6f8;
+    padding: $spacing*4 0;
+
+    &__inner {
+        @extend %heading--lg;
+    }
+
+    &__cite {
+        display: flex;
+        align-items: center;
+    }
+
+    blockquote {
+        color: $primary-light;
+        font-weight: bold;
+        line-height: 1.2;
+        margin-bottom: $spacing*2;
+    }
+
+    cite {
+        color: $primary-light;
+        font-weight: bold;
+        margin-right: 64px;
+    }
+
+    i {
+        color: $white;
+        font-size: 112px;
+    }
+}

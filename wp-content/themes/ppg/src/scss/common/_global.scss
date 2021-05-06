@@ -1,0 +1,81 @@
+html, body {
+    font-family: $font-default;
+    // letter-spacing: $letter-spacing;
+    line-height: $line-height;
+    overflow-x: hidden;
+    &.no-scroll {
+        overflow: hidden;
+    }
+}
+
+p {
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+%text,
+.text {
+	&--sm {
+		@include fluid-val($m, $xl, $font-size-sm, $font-size-sm);
+	}
+	&--xl {
+		@include fluid-val($m, $xl, $font-size-default, $font-size-xl);
+	}
+	&--primary {
+		color: $primary;
+	}
+	&--success {
+		color: $green;
+	}
+	&--danger,
+	&--red {
+		color: $red;
+	}
+	&--uppercase {
+		text-transform: uppercase;
+    }
+    &--capitalize {
+        text-transform: capitalize;
+    }
+    &--underline {
+        text-decoration: underline;
+    }
+}
+
+
+hr {
+    &.separator {
+        width: 50%;
+        margin: auto;
+        @include media-breakpoint-up(md){
+            margin: 0; 
+        }
+    }
+}
+
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+.divider {
+    &--small {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,8 @@
+.content-area {
+    &__container {
+        padding: $spacing-lg 0;   
+        @media screen and (min-width:$l-min) {
+            padding: $spacing-lg* 3 0;   
+        }
+    }
+}

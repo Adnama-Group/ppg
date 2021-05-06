@@ -1,0 +1,267 @@
+$checkbox-size: 16px;
+
+.woocommerce {
+    // display: flex;
+    .woocommerce-checkout & {
+        width: 100%;
+        max-width: 580px;
+        margin: auto;
+    }
+
+    &__listing-levels {
+        margin-bottom: 45px;
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+    }
+    &__listing-levels-options {
+        padding: $spacing;
+        border: $gray-300 solid 1px;
+        border-radius: 10px;
+        margin-bottom: $spacing;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &.active {
+            border: $red solid 1px;
+        }
+
+        p {
+            order: 3;
+            padding-left: $checkbox-size * 2;
+        }
+        label {
+            font-weight: bold;
+            margin: 0;
+            order: 2;
+        }
+        input {
+            order: 1;
+            appearance: none;
+            width: $checkbox-size;
+            height: $checkbox-size;
+            border: black solid 1px;
+            margin-right: $checkbox-size;
+            position: relative;
+            &:checked {
+                &:after {
+                    content:'\2713';
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    line-height: 1;
+                    color: $red;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+
+    .products {
+        display: flex;
+        flex-flow: row wrap;
+
+        &.columns-3 {
+            list-style: none;
+            padding: 0;
+            align-items: flex-start;
+            // justify-content: space-between;
+            padding-top: $spacing*2;
+            
+            > li {
+                flex: 0 1 100%;
+                max-width: 100%;
+                margin-bottom: $spacing-lg;
+                @include media-breakpoint-up(sm){
+                    margin-right: 2%;
+                    flex: 0 1 47%;
+                    max-width: 47%;
+                }
+                &:nth-child(2n){
+                    margin-right: 0;
+                }
+            }
+        }
+
+        &.columns-4 {
+            list-style: none;
+            padding: 0;
+            align-items: flex-start;
+            // justify-content: space-between;
+            
+            > li {
+                margin-right: 2%;
+                flex: 0 1 25%;
+                max-width: 25%;
+                margin-bottom: $spacing-lg;
+                &:nth-child(2n){
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+
+    .woocommerce-tabs  {
+        width: 100%;
+        
+        .tabs {
+            margin: 0;
+            padding: 0;
+            border-left: 1px solid $gray-200;
+            border-top-left-radius: 5px;
+            list-style: none;
+            display: flex;
+            margin-bottom: -1px;
+            z-index: 1;
+            > li {
+                padding: 10px 20px;
+                font-weight: bold;
+                color: $gray-500;
+                border-top: $gray-200 solid 1px;
+                border-right: $gray-200 solid 1px;
+                border-bottom: transparent solid 1px;
+                &:first-child {
+                    border-top-left-radius: 5px;
+                }
+                &:last-child {
+                    border-top-right-radius: 5px;
+                }
+                &.active {
+                    color: $black;
+                    border-bottom: $white solid 1px;
+                }
+            }
+        }
+        .panel {
+            border: $gray-200 solid 1px;
+            padding: 2em;
+        }
+    }
+
+    .checkout.woocommerce-checkout {
+        @extend .form, .form--secondary; 
+        max-width: 100%;
+        .col-1 {
+            max-width: 100%;
+            flex: 0 1 100%;
+            padding: 0;
+        }
+        .form-row {
+            margin: 0 0 10px;
+            &:last-child {
+                margin: 0;
+            }
+            label {
+                width: 100%;
+                font-weight: bold;
+            }
+            .woocommerce-input-wrapper {
+                width: 100%;
+                input {
+                    width: 100%;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    border: #707070 solid 1px;
+                }
+            }
+        }
+        .woocommerce-billing-fields {
+            h3 {
+                font-size: 18px;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+
+#order_review_heading {
+    margin-top: 20px;
+    padding: 0 15px;
+}
+
+.woocommerce-checkout {
+    &__checkout {
+        text-align: right;
+    }
+}
+
+.woocommerce-checkout-review-order {
+    padding: 15px;
+    .place-order {
+        justify-content: flex-end;
+    }
+    .woocommerce-checkout-review-order-table {
+        width: 100%;
+    }
+    .woocommerce-terms-and-conditions-wrapper {
+        margin-bottom: 15px;
+    }
+    .wc_payment_methods {
+        list-style: none;
+        padding: 0;
+        label {
+            width: 100%;
+        }
+    }
+    .woocommerce-checkout-payment {
+        padding: 15px 0;
+    }
+    .wc-payment-form {
+        label {
+            font-weight: bold;
+        }
+    }
+    .woocommerce-SavedPaymentMethods-saveNew {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        input {
+            flex: 0 1 10%;
+            max-width: 10%;
+            margin: 0;
+        }   
+        label {
+            flex: 0 1 90%;
+            margin: 0;
+            max-width: 90%;
+        }                                                
+    }
+    .button {
+        @extend .button--primary, .button--white-border;
+    }
+}
+
+.woocommerce-pagination {
+    width: 100%;
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    li {
+        .page-numbers {
+            height: 34px;
+            width: 34px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+.gfield {
+    &_required { 
+        color: $red; 
+    }
+}

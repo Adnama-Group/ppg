@@ -1,0 +1,8 @@
+.hero {
+    background-position: center;
+    background-size: cover;
+    margin-bottom: $spacing;
+    &__content {
+        padding: $spacing*10 0;
+    }
+}

@@ -1,0 +1,15 @@
+.choose-pet {
+    padding: $spacing-lg*3 0;
+    &__body {
+        img {
+            max-width: 185px;
+        }
+        a {
+            color: $primary;
+            transition: 300ms;
+            &:hover {
+                opacity: 0.75;
+            }
+        }
+    }
+}

@@ -1,0 +1,145 @@
+%input {
+     border-radius: 40px;
+     border: $gray-500 solid 1px;
+     padding: 5px 15px;
+     width: 100%;
+}
+
+.gform_wrapper {
+     form {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+     }
+}
+.gform_heading {
+     margin-bottom: 15px;
+}
+.gform_title {
+     @extend .heading;
+}
+.gform_fields {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+
+.gfield {
+     input {
+          &[type="text"],
+          &[type="email"],
+          &[type="url"] {
+               @extend %input;
+          }
+     }
+     select {
+          @extend %input;
+          padding: 10px 15px;
+     }
+}
+
+.gfield_visibility_hidden {
+     @extend .screen-reader-text;
+}
+
+.gform_footer {
+     padding: 0 5px;
+     .gform_button {
+          @extend .btn, .btn--primary, .btn--white-border;
+     }
+}
+
+.contact_wrapper {
+     form {
+          background-color: $primary;
+          flex-flow: row wrap;
+          color: $white;
+          position: relative;
+          justify-content: flex-start;
+          width: 100%;
+          @include media-breakpoint-up(sm) {
+               max-width: 666px;
+          }
+          &:after {
+               content: "";
+               background-image: url("/wp-content/themes/ppg/img//dog_keyboard_contact.png");
+               position: relative;
+               bottom: 0;
+               right: 0;
+               width: 100%;
+               max-width: 645px;
+               background-position: bottom center;
+               background-size: contain;
+               background-repeat: no-repeat;
+               height: 200px;
+               @include media-breakpoint-up(sm) {
+                    left: 77%;
+                    height: 100%;
+                    max-height: 396px;
+                    right: unset;
+                    position: absolute;
+               }
+          }
+     }
+     .gfield {
+          margin-bottom: 35px;
+          &:last-child {
+               margin-bottom: 0;
+               > label {
+                    display: none;
+               }
+          }
+          > label {
+               margin: 0;
+          }
+     }
+     .gform_fields {
+          padding: 35px 20px 0;
+          @include media-breakpoint-up(sm) {
+               padding: 35px 40px 0;
+          }
+     }
+     .gform_body {
+          flex: 0 1 100%;
+          max-width: 100%;
+     }
+     .gfield {
+          input,
+          textarea {
+               border-radius: 5px;
+               background-color: transparent;
+               color: $white;
+               border: #e6e4e4 solid 1px;
+               width: 100%;
+          }
+          textarea {
+               height: 136px;
+          }
+     }
+     .gform_footer {
+          padding: 34px 20px;
+          flex: 1;
+          @include media-breakpoint-up(sm) {
+               padding: 34px 40px;
+          }
+          input {
+               width: 100%;
+               @include media-breakpoint-up(sm) {
+                    max-width: 197px;
+               }
+          }
+     }
+}
+
+.chosen-container {
+     width: 100% !important;
+     .chosen-choices {
+          padding: 10px !important;
+     }
+}
+
+.hidden_label {
+     > label {
+          @extend .screen-reader-text;
+     }
+}

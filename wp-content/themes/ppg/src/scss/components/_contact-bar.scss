@@ -1,0 +1,33 @@
+.contact-bar {
+    background-color: $gray-100;
+    color: $primary;
+    font-weight: bold;
+    padding: $spacing*2 0;
+    
+    &__email {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        @include media-breakpoint-up(sm){
+            justify-content: flex-start;
+        }
+        a {
+            color: $secondary;
+        }
+    }
+    &__social {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        @include media-breakpoint-up(sm){
+            justify-content: flex-end;
+        }
+        ul {
+            margin: 0 0 0 10px;
+        }
+    }
+}

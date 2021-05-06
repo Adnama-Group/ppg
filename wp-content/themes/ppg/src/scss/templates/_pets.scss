@@ -1,0 +1,277 @@
+$pets-spacing: 80px;
+$selection-image-size: 300px;
+
+%pet-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+.pets {
+
+    &--bg-dog_paws,
+    &--bg-dog-paws {
+        .pets__hero {
+            background-image: url('/wp-content/themes/ppg/img/hero-section-blue-paws.png');
+            @extend %pet-bg;
+        }
+        .pets__conclusion {
+            background-image: url('/wp-content/themes/ppg/img/conclusion-blue-paws.png');
+            @extend %pet-bg;
+        }
+        .pets__start {
+            background-image: url('/wp-content/themes/ppg/img/top-midsection-blue-paws.png');
+            @extend %pet-bg;
+        }
+        .pets__descriptions {
+            background-image: url('/wp-content/themes/ppg/img/bottom-midsection-blue-paws.png');
+            @extend %pet-bg;
+        }
+    }
+
+    .heading {
+        text-transform: uppercase;
+        text-align: center;
+       @include media-breakpoint-up(sm){
+            text-align: left;
+        }
+    }
+    .divider {
+        margin: $pets-spacing/6.5 auto;
+        width: 100%;
+        max-width: 200px;
+       @include media-breakpoint-up(sm){
+            margin: $pets-spacing/6.5 0;
+        }
+        &--large {
+            max-width: 728px;
+            margin: 0 auto;
+        }
+    }
+
+    &__content-block {
+        padding: $pets-spacing/2 0;
+        position: relative;
+       @include media-breakpoint-up(sm){
+            padding: $pets-spacing 0;
+        }
+        .btn {
+            margin-top: $pets-spacing/4;
+        }
+        ul {
+           @include media-breakpoint-up(sm){
+                // columns: 2;
+            }
+        }
+
+        &--2x {
+            padding: $pets-spacing 0;
+           @include media-breakpoint-up(sm){
+                padding: $pets-spacing*2 0;
+            }
+        }
+
+        &--gray {
+            .pets__content-block-inner {
+                background-color: $gray-100;
+                padding: $pets-spacing/2 30px;
+                border-radius: 5px;
+               @include media-breakpoint-up(sm){
+                    padding: $pets-spacing/2;
+                }
+            }
+        }
+    }
+
+    &__hero {
+        text-align: center;
+       @include media-breakpoint-up(sm){
+            padding-top: $pets-spacing/2;
+            text-align: left;
+        }
+        .heading {
+            text-transform: uppercase;
+        }
+        .pets__content-block {
+            padding: $pets-spacing/2 0 0;
+           @include media-breakpoint-up(sm){
+                padding: $pets-spacing 0;
+            }
+        }
+        img {
+            margin: auto;
+            max-width: 250px;
+            height: 100%;
+            object-fit: contain;
+            object-position: bottom center;
+           @include media-breakpoint-up(sm){
+                max-width: 100%;
+            }
+        }
+    }
+
+    &__about {
+        background-color: $primary;
+        color: $white;
+
+        img {
+            height: 100%;
+            object-fit: contain;
+            object-position: bottom center;
+        }
+
+        .pets__content-block {
+            padding: $pets-spacing/2 $pets-spacing/8;
+        }
+    }
+
+    &__decisions {
+        background-color: $gray-100;
+    } 
+
+    &__selection {
+        .heading {
+            text-align: center;
+            margin: 0;
+        }
+        .divider {
+            margin: $pets-spacing/6.5 auto;
+        }
+        &--secondary {
+            background-color: $primary;
+            color: $white;
+            .heading {
+                text-align: left;
+            }
+            .divider {
+                margin: $pets-spacing/6.5 0;
+            }
+            .pets__selection-img {
+                left: 0;
+                position: relative;
+                max-width: 100%;
+            }
+        }
+    }
+
+    &__selection-img {
+       @include media-breakpoint-up(sm){
+            position: absolute;
+            bottom: 0;
+            left: calc(100% - #{$selection-image-size/3});
+            width: 100%;
+            max-width: $selection-image-size;
+        }
+    }
+
+    &__start {
+
+    }
+
+    &__descriptions-inner {
+       @include media-breakpoint-up(sm){ 
+            columns: 2;
+        }
+    }
+    &__description {
+        margin-bottom: 45px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__newsletter {
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        color: $white;
+        background-color: $gray-100;
+        &:after {
+            content: '';
+            background-color: rgba($primary, 0.85);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .heading {
+            text-align: center;
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+        }
+        .divider {
+            margin: 0 auto 1rem;
+        }
+        form {
+            flex-flow: row wrap;
+            .input {
+                margin: 0 0 $pets-spacing/6;
+               @include media-breakpoint-up(sm){
+                    margin: 0 $pets-spacing/6 0 0;
+                }
+            }
+            .input, .btn {
+                max-width: 100%;
+                width: 100%;
+               @include media-breakpoint-up(sm){
+                    max-width: 280px;
+                }
+            }
+        }
+        p {
+            width: 100%;
+            max-width: 480px;
+            margin: 0 auto 1rem;
+        }
+        .btn {
+            margin: 0;
+        }
+    }
+
+    &__facts {
+        background-color: $gray-100;
+        padding: $pets-spacing 0;
+        .divider {
+            margin: $pets-spacing/8 auto $pets-spacing/3;
+        }
+    }
+
+    &__conclusion {
+        
+    }
+    &__conclusion-img {
+        height: 100%;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: flex-end;
+       @include media-breakpoint-up(sm){
+            width: calc(100% + 60px);
+        }
+    }
+}
+
+.fact {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: $pets-spacing/2;
+    &__number {
+        flex: 0 1 30px;
+        max-width: 30px;
+        font-size: 30px;
+        line-height: 1;
+        font-weight: bold;
+        color: $primary;
+    }
+    &__content {
+        flex: 1;
+        .heading {
+            margin: 0;
+            text-align: left;
+        }
+    }
+}

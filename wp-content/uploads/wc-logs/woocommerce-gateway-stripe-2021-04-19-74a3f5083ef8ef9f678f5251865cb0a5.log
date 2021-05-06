@@ -1,0 +1,7 @@
+2021-04-19T22:27:33+00:00 DEBUG 
+====Stripe Version: 5.1.0====
+====Start Log====
+Error: Unable to verify domain - We were not able to verify your domain. To verify with Apple that you control your domain, you must host the verification file at https://ppg.test/.well-known/apple-developer-merchantid-domain-association. You can find the verification file here: https://stripe.com/files/apple-pay/apple-developer-merchantid-domain-association. For more information, see https://stripe.com/docs/stripe-js/elements/payment-request-button#verifying-your-domain-with-apple-pay.
+====End Log====
+
+

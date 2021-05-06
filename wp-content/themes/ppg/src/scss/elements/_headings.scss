@@ -1,0 +1,76 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@include fluid-val($m, $xl, $heading-mobile-default, $heading-default);
+	letter-spacing: 0;
+	line-height: 1.2;
+	font-family: $font-primary;
+}
+
+%heading,
+.heading {
+	font-family: $font-primary;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+	line-height: 1.1;
+	color: $primary;
+
+	&--xxl {
+		font-size: $heading-mobile-xl;
+		@include media-breakpoint-up(md) {
+			font-size: $heading-xxl;
+		}
+		// @include fluid-val($m, $xl, $heading-mobile-xl, $heading-xxl); 
+	}
+	&--xl {
+		font-size: $heading-mobile-xl;
+		@include media-breakpoint-up(md) {
+			font-size: $heading-xl;
+		}
+		// @include fluid-val($m, $xl, $heading-mobile-xl, $heading-xl);
+	}
+	&--lg {
+		font-size: $heading-mobile-lg;
+		@include media-breakpoint-up(md) {
+			font-size: $heading-lg;
+		}
+		// @include fluid-val($m, $xl, $heading-mobile-lg, $heading-lg);
+	}
+	&--default {
+		font-size: $heading-mobile-default;
+		@include media-breakpoint-up(md) {
+			font-size: $heading-default;
+		}
+		// @include fluid-val(
+		// 	$m,
+		// 	$xl,
+		// 	$heading-mobile-default,
+		// 	$heading-default
+		// );
+	}
+	&--sm {
+		font-size: $heading-mobile-sm;
+		@include media-breakpoint-up(md) {
+			font-size: $heading-sm;
+		}
+		// @include fluid-val($m, $xl, $heading-mobile-sm, $heading-sm);
+	}
+	&--xs {
+		font-size: $font-size-default;
+	}
+	&--light,
+	&--white {
+		color: $white;
+	}
+	&--secondary,
+	&--red {
+		color: $secondary;
+	}
+	&--tertiary {
+		
+	}
+}

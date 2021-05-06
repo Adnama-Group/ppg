@@ -1,0 +1,7 @@
+<?php
+/**
+ * Page Flex
+ */
+?>
+
+test

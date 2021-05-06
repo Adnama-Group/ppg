@@ -1,0 +1,189 @@
+.layout {
+    background-position: top center;
+    background-size: cover;
+    &__content,
+    &__image {
+        @extend .col-md-6;
+    }
+    &__content-inner {
+        width: 100%;
+        max-width: 520px;
+    }
+    &__content-title {
+        &--center {
+            text-align: center;
+            .divider {
+                margin: 0 auto 10px !important;
+            }
+        }
+    }
+    &__image {
+        &--title {
+            background-color: $primary;
+            padding: 0;
+            position: relative;
+            img {
+                height: 100%;
+                width: 100%;
+                opacity: 0.5;
+                object-fit: cover;
+                object-position: center;
+            }
+            p {
+                @extend .heading--lg;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                margin: auto;
+                height: fit-content;
+                color: white;
+                padding: 15px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .container-fluid {
+        padding: 0;
+        .row {
+            margin: 0;
+        }
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .divider {
+        width: 100%;
+        max-width: 200px;
+        margin: 0 0 10px;
+    }
+
+    &__content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        padding: $spacing;
+    }
+
+    &--full {
+        .layout__content,
+        .layout__image {
+            @extend .col-md-12;
+            text-align: center;
+        }
+        .layout__content-inner {
+            max-width: $xl;
+        }
+        .layout__content {
+            padding: 60px $spacing 0;
+        }
+        .layout__image {
+            padding: 0 0 $spacing;
+        }
+        .heading {
+            text-align: center;
+        }
+        .divider {
+            margin: 0 auto 10px;
+        }
+    }
+
+    &--gray {
+        .layout__content {
+            background-color: $gray-200;
+            padding: $spacing*3 $spacing;
+        }
+    }
+
+    &--primary {
+        .layout__content {
+            padding: 4rem 1rem 1rem;
+            @include media-breakpoint-up(md){
+                padding: 1rem;
+            }
+        }
+        .heading {
+            text-align: center;
+            @include media-breakpoint-up(md){
+                text-align: left;
+            }
+        }
+        .divider {
+            @include media-breakpoint-down(md){
+                margin: 0 auto 10px;
+            }
+        }
+        .layout__image {
+            @extend .col-md-7;
+            text-align: right;
+        }
+        .layout__content { 
+            @extend .col-md-5;
+            justify-content: flex-start;
+        }
+        .layout__content-inner {
+            margin: 0;
+            @include media-breakpoint-down(md){
+                text-align: center;
+                margin: auto;
+            }
+        }
+    }
+    &--secondary {
+        background-color: $primary;
+        background-position: top 5px left 12%;
+        background-size: 10vw;
+        background-repeat: no-repeat;
+
+        .heading {
+            text-align: center;
+            @include media-breakpoint-up(md){
+                text-align: left;
+            }
+        }
+        .divider {
+            @include media-breakpoint-down(md){
+                margin: 0 auto 10px;
+            }
+        }
+        .layout__image,
+        .layout__content {
+            @extend .col-md-6;
+        }
+        .layout__image {
+            padding: 0;
+        }
+        .layout__content {
+            background-image: url(/wp-content/themes/ppg/img/upsidedown-dog.png);
+            background-position: top 10px left 15%;
+            background-size: 175px;
+            background-repeat: no-repeat;
+            padding: 60px 15px;
+            @include media-breakpoint-up(sm){
+                padding: 15px;
+            }
+            &--reverse {
+                background-position: top 10px right 15%;
+            }
+        }
+        .layout__content-inner {
+            @include media-breakpoint-down(md){
+                text-align: center;
+            }
+        }
+        .layout__content,
+        .heading {
+            color: $white;
+        }
+        .layout__content-inner {
+            // width: 100%;
+            // max-width: 520px;
+        }
+    }
+}

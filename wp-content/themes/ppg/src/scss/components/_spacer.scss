@@ -1,0 +1,12 @@
+.spacer {
+    padding: $spacing 0;
+    &--half {
+        padding: $spacing/2 0;
+    }
+    &--2x {
+        padding: $spacing*2 0;
+    }
+    &--4x {
+        padding: $spacing*4 0;
+    }
+}

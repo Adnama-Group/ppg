@@ -1,0 +1,103 @@
+$product-spacing: 15px;
+
+.products {
+    display: flex;
+    flex-flow: row wrap; 
+    .product.card {
+        @media screen and (max-width: 580px){
+            width: 100% !important;
+        }
+    }
+}
+
+.single-product {
+    .product {
+        padding-top: $product-spacing*5;
+    }
+}
+
+.pet-product {
+    &__title {
+        border-bottom: $gray-300 solid 1px;
+        padding-bottom: $product-spacing;
+        margin-bottom: $product-spacing;
+        .heading {
+            margin: 0;
+        }
+    }
+    &__amount {
+        @extend .heading--xl;
+        color: $secondary;
+        font-weight: bold;
+        line-height: 1;
+        padding: $product-spacing 0 $product-spacing*2;
+    }
+    &__info {
+        margin-bottom: $product-spacing*2;
+        tr {
+            td {
+                font-weight: bold;
+                &:first-child {
+                    color: $primary;
+                    text-transform: capitalize;
+                    padding-right: $product-spacing;
+                    width: 33%;
+                }
+            }
+        }
+    }
+    &__awards {
+        display: flex;
+        flex-flow: row wrap;
+        margin-bottom: $product-spacing*2;
+        text-align: center;
+        @media screen and (min-width: $m-min){
+            text-align: left;
+        }
+    }
+    &__award {
+        display: inline-flex;
+        flex: 1 0 100%;
+        max-width: 100%;
+        margin-bottom: $product-spacing;
+        @media screen and (min-width: $m-min){
+            flex: 1 0 50%;
+            max-width: 50%;
+        }
+    }
+    &__award-image {
+        margin-right: $product-spacing;
+    }
+    &__social {
+        border-top: $gray-300 solid 1px;
+        border-bottom: $gray-300 solid 1px;
+        padding: $product-spacing 0;
+        margin-bottom: $product-spacing*3;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        i {
+            margin-right: $product-spacing/2;
+            color: $gray-900;
+        }
+        > * {
+            color: $primary;
+            flex: 1 0 50%;
+            max-width: 50%;
+            text-align: left !important;
+            &:hover {
+                color: $gray-900;
+            }
+        }
+        .social {
+            width: auto;
+            padding: 0;
+            margin: 0 !important;
+            &__links {
+                ul {
+                    transform: none;
+                }
+            }
+        }
+    }
+}

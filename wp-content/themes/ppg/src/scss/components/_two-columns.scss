@@ -1,0 +1,46 @@
+.two-columns {
+    &--bg-primary {
+        background-color: $primary;
+        color: $white;
+    }
+
+    &__content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: $spacing*3 $spacing;
+        background-size: 150px;
+        background-repeat: no-repeat;
+        background-position: top 10px left;
+        @media screen and (min-width:$m-min) {
+            text-align: left;
+            background-size: 300px;
+        }
+
+        img {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__content-inner {
+        max-width: 520px;
+        width: 100%;
+    }
+
+    &__image {
+        padding: 0px;
+        margin: 0px;
+
+        figure {
+            margin: 0;
+        }
+    }
+
+    p {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

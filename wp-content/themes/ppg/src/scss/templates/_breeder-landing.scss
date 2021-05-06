@@ -1,0 +1,165 @@
+$template-spacing: 40px;
+
+.page-template-template-breeder-landing {
+    .hero {
+        background-color: $primary;
+        background-position: center;
+        background-size: cover;
+        &__content {
+            width: 100%;
+            max-width: 760px;
+            margin: auto;
+            padding: $template-spacing*4 0;
+            p {
+                margin-bottom: $template-spacing;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    
+    .snippets {
+        padding: $template-spacing*2 0;
+        img {
+            margin-bottom: $template-spacing;
+        }
+    }
+    
+    .callout {
+        padding: $template-spacing*2.5 0;
+        background-position: center;
+        background-size: cover;
+        color: $black;
+        &::after {
+            content: none;
+        }
+        img {
+            width: 100%;
+            max-width: 200px;
+            margin: 0 auto $template-spacing/4;
+        }
+        h2 {
+            margin-bottom: $template-spacing/4;
+        }
+    }
+
+    .plans {
+        padding: $template-spacing*3 0;
+        &__content {
+            img {
+                width: 100%;
+                max-width: 200px;
+                margin: 0 auto $template-spacing/4;
+            }
+            h2 {
+                margin-bottom: $template-spacing/4;
+            }
+        }
+        .table {
+            margin: $template-spacing*2 0 0;
+            &--desktop {
+                display: none;
+                @include media-breakpoint-up(md){
+                    display: block;
+                }
+            }
+            &--mobile {
+                @include media-breakpoint-up(md){
+                    display: none;
+                }
+            }
+            th {
+                border-top: 0;
+            }
+            tr {
+                &:last-child {
+                    td {
+                        border-left: none;
+                        border-right: none;
+                    }
+                }
+            }
+            td {
+                border-top: 2px solid $gray-200;
+                border-left: 2px solid $gray-200;
+                &:last-child {
+                    border-right: 2px solid $gray-200;
+                }
+                &.cell-blue {
+                    background-color: #DEF9FF;
+                }
+                &.cell-blue-dark {
+                    background-color: #AFF1FF;
+                }
+                &.cell-orange {
+                    background-color: #FBF1DD;
+                }
+            }
+            td, th {
+                vertical-align: middle;
+                text-align: center;
+            }
+            &__head {
+                background-color: #05789E;
+                color: $white;
+                font-size: $heading-lg;
+                &--first {
+                    border-top-left-radius: 10px;
+                    background-color: #0685AF;
+                    border-right: $white solid 1px;
+                }
+                &--last {
+                    border-top-right-radius: 10px;
+                    background-color: #005F7F;
+                    border-left: $white solid 1px;
+                }
+                span {
+                    color: #E8E6A5;
+                    text-transform: uppercase;
+                    display: block;
+                    font-size: $font-size-sm;
+                }
+            }
+            &__head-image {
+                position: relative;
+                img {
+                    bottom: 0;
+                    left: 0;
+                    position: absolute;
+                }
+            }
+        }
+    }
+
+    .faqs {
+        padding: $template-spacing*3 0;
+        h2 {
+            margin-bottom: $template-spacing/4;
+        }
+        img {
+            width: 100%;
+            max-width: 200px;
+            margin: 0 auto $template-spacing/4;
+        }
+        &__image {
+            padding: $template-spacing/2 0;
+            img {
+                max-width: 550px;
+            }
+        }
+        &__button {
+            padding-top: $template-spacing;
+        }
+
+    }
+
+    .faq {
+        margin-bottom: $template-spacing/2 ;
+        h2 {
+            margin-bottom: $template-spacing/4;
+            text-transform: unset;
+            font-size: $font-size-lg;
+        }
+    }
+}

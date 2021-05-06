@@ -1,0 +1,16 @@
+.tagcloud {
+    a {
+        display: inline-block;
+        font-size: $font-size !important;
+        background-color: $gray-500;
+        padding: $spacing/2;
+        color: $white;
+        font-weight: bold;
+        line-height: 1;
+        white-space: nowrap;
+        margin-bottom: $spacing/2;
+        &:hover {
+            background-color: darken($gray-500, 10);
+        }
+    }
+}

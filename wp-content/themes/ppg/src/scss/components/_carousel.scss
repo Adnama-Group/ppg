@@ -1,0 +1,125 @@
+$carousel-nav-section-size: 60px;
+$carousel-breakpoint: 576px;
+
+// Replacing BS4 styles
+.carousel {
+    &-inner {
+        z-index: 0;
+    }
+    &-control-next, &-control-prev {
+        z-index: 1; 
+        width: $carousel-nav-section-size;
+        height: calc(100% - 140px);
+    }
+    &-item {
+    }
+}
+
+// Carousel
+.carousel {
+    &__item-container {
+        display: flex;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom center;
+        padding: $spacing-lg*2 0 $spacing-lg*8;
+        min-height: 70vh;
+        color: $primary;
+        position: relative;
+        z-index: 1;
+        @media screen and (min-width: $carousel-breakpoint) {
+            background-size: cover;
+            background-position: center;
+            min-height: 700px;
+            height: 75vh;
+            padding: $spacing-lg*2 0 $spacing-lg*3;
+        }
+        &:before {
+            // content: "";
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            background-color: rgba($black,0.25);
+        }
+        img {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            object-fit: contain;
+            object-position: bottom center;
+            @media screen and (min-width: $carousel-breakpoint) {
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+    &__item-inner {
+        width: 100%;
+        max-width: calc(#{$xl - $carousel-nav-section-size});;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+        // padding: 0 $carousel-nav-section-size;
+    }
+    &__item-content {
+        position: relative;
+        z-index: 1;
+        // margin: 0 auto;
+        padding: 0 $carousel-nav-section-size/4;
+        text-align: center;
+        max-width: 450px;
+        @media screen and (min-width: $carousel-breakpoint) {
+            text-align: left;
+            width: calc(100% - #{$carousel-nav-section-size *2});
+        }
+        .heading {
+            color: $primary;
+            @media screen and (min-width: $carousel-breakpoint) {
+                font-size: 3rem !important;
+            }
+        }
+    }
+    &__nav-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        max-width: calc(#{$xl - $carousel-nav-section-size});
+        padding: 0 $carousel-nav-section-size/4;
+        margin: auto;
+        pointer-events: none;
+        > a {
+            pointer-events: all;
+        }
+    }
+    .carousel-indicators {
+        position: relative;
+        margin: 0;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        &:after {
+            content: "";
+            flex: 0 1 33%;
+        }
+        li {
+            flex: 0 1 33%;
+            width: auto;
+            max-height: 120px;
+            height: auto;
+            text-indent: unset;
+            margin: 0;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+}

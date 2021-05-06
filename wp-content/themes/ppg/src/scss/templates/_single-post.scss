@@ -1,0 +1,28 @@
+.single-post {
+    .entry-header {
+        // padding-top: $spacing-lg*3;
+        background-color: $primary;
+        background-image: url(../img/paws-on-blue.jpg);
+        background-position: bottom center;
+        background-repeat: repeat-x;
+        padding: 50px 15px;
+        margin-bottom: $spacing-lg*3;
+    }
+    .entry-title {
+        @extend .heading, .heading--xl;
+        color: $white;
+        width: 100%;
+        max-width: 840px;
+        margin: auto;
+        text-align: center;
+    }
+    .post-thumbnail {
+        margin-bottom: $spacing-lg*2;
+    }
+    .post.type-post {
+        padding-bottom: $spacing-lg*4;
+    }
+    .navigation.post-navigation {
+        display: none;
+    }
+}

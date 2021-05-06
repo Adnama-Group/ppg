@@ -1,0 +1,22 @@
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: 300ms;
+    &:hover {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+.link {
+    transition: 300ms;
+    &--primary {
+        color: $secondary;
+        font-weight: bold;
+        font-size: $font-size-sm;
+    }
+    &--secondary {
+        color: $secondary; 
+        text-decoration: underline;
+    }
+}

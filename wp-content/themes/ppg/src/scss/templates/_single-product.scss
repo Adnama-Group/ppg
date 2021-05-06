@@ -1,0 +1,85 @@
+.single-product { // body class
+    .product:not(.card--related) {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: $spacing-lg*4 0;
+        > div {
+            flex: 0 1 100%;
+            max-width: 100%;
+            margin-bottom: 50px;
+        }
+
+        .woocommerce-product-gallery {
+            @include media-breakpoint-up(md) {
+                flex: 0 1 55%;
+                max-width: 55%;
+            }
+        }
+
+        .summary.entry-summary {
+            @include media-breakpoint-up(md) {
+                flex: 0 1 40%;
+                max-width: 40%;
+            }
+        }
+
+        .product_title {
+            @extend .heading, .heading--lg;
+            padding-bottom: 10px;
+            border-bottom: $gray-200 solid 1px;
+        }
+        .price {
+            @extend .heading--xl;
+            line-height: 1;
+            font-weight: bold;
+            color: $secondary;
+        }
+        .cart {
+            display: none;
+        }
+    }
+
+    .posted_in {
+        @extend .screen-reader-text;
+    }
+
+    .pet-details {
+        ul {
+            list-style: none;
+            padding: 0;
+            label {
+                width: 100%;
+                max-width: 75px;
+                color: $primary;
+                font-weight: bold;
+                margin: 0;
+            }
+            li {
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    .breeder-details {
+        &__tab-card {
+            margin-bottom: 20px;
+            .label {
+                text-transform: capitalize;
+                margin: 0;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .related.products {
+        width: 100%;
+        .heading {
+            flex: 0 1 100%;
+            max-width: 100%;
+        }
+        .products {
+            width: 100%;
+        }
+    }
+}

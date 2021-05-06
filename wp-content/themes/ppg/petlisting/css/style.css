@@ -1,0 +1,19 @@
+body.wp-admin.post-type-product ul.top_level>li{
+    border:1px solid #cecece;
+    padding:5px;
+}
+body.wp-admin.post-type-product span.course_title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+body.wp-admin.post-type-product label{
+    /*display:block;*/
+}
+body.wp-admin.post-type-product .nyulawlms_course_gradables_total_pts{
+    width:50px;
+    display:inline-block;
+}
+
+body.page-template-viewer nav.woocommerce-MyAccount-navigation li.nyulawlmsLessonNav a.nyulawlms_lessonlink{
+    text-decoration:none;
+}

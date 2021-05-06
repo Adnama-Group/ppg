@@ -1,0 +1,123 @@
+.sidebar {
+    padding-top: $spacing-lg;
+    @include media-breakpoint-up(lg){
+        padding-top: $spacing-lg*3;
+        border-right: $gray-300 solid 1px;
+    }
+    &--resources {
+        padding: 0;
+        border: none;
+        background-color: $gray-100;
+    }
+
+    &__inner {
+        padding: $spacing-lg;
+        > div {
+            border-bottom: $gray solid 1px;
+            margin-bottom: $spacing-lg*1.4;
+            padding-bottom: $spacing-lg*1.4;
+            &:last-child {
+                border-bottom: none;
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+        }
+    }
+
+    &__article {
+        &:last-child {
+            .post {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &__title {
+        h2 {
+            font-size: $font-size-lg;
+            // color: $gray-900 !important;
+        }
+    }
+
+    &__cloud {
+        @extend .tagcloud;
+    }
+
+    &__search {
+        #ajaxsearchlite1 .probox, div.asl_w .probox {
+            border: $gray-500 solid 1px;
+            padding: 2px;
+        }
+        #ajaxsearchlite1 .probox .proinput input, div.asl_w .probox .proinput input {
+            font-size: 16px;
+        }
+    }
+
+    &__social {
+        a {
+            color: $primary;
+            &:hover {
+                color: $secondary;
+            }
+        }
+    }
+}
+
+.list-cat {
+    &__container {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: $spacing;
+        position: relative;
+        &:after {
+            content: '';
+            background-color: $gray-300;
+            height: 1px;
+            width: 100%;
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            z-index: 0;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+        > div {
+            position: relative;
+            z-index: 1;
+        }
+    }
+    &__name {
+        background-color: $gray-100;
+        padding-right: 10px;
+        a {
+            &:hover {
+                color: $secondary;
+            }
+        }
+    }
+
+    &__count {
+        width: 25px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $gray-500;
+        color: $white;
+        &--heath_and_safety,
+        &--health_and_safety {
+            background-color: $contrast;
+        }
+        &--lifestyle {
+            background-color: #75CBA8;
+        }
+        &--pet_planning {
+            background-color: #005D83;
+        }
+        &--pet_products {
+            background-color: #F2BF5E;
+        }
+    }
+}

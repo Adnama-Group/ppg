@@ -1,0 +1,25 @@
+.from-litter {
+    ul {
+        display:flex;
+        margin:0px;
+        padding:0px;
+        flex-wrap:wrap;
+        li {
+            width:25%;
+            padding:5px;
+            margin-bottom:10px;
+        }
+    }
+    &__title {
+        text-transform: capitalize;
+    }
+    p {
+        a {
+            color: $secondary;
+            text-decoration: underline;
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
